@@ -7,13 +7,9 @@
 //
 
 #import "SecondViewController.h"
-#import "UIView+Corners.h"
 
 @interface SecondViewController ()
 
-@property (weak, nonatomic) IBOutlet UIView *redView;
-@property (weak, nonatomic) IBOutlet UILabel *darklabel;
-@property (weak, nonatomic) IBOutlet UIImageView *imageV;
 
 @end
 
@@ -22,22 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-//    _redView.layer.cornerRadius = 20;
-//    _darklabel.layer.cornerRadius = 20;
-//    _imageV.layer.cornerRadius = 20;
-    
-//    [_redView roundCornersOnTopLeft:YES topRight:YES bottomLeft:YES bottomRight:YES radius:20];
-//     [_imageV roundCornersOnTopLeft:YES topRight:YES bottomLeft:YES bottomRight:YES radius:20];
-//    [_darklabel roundCornersOnTopLeft:YES topRight:YES bottomLeft:YES bottomRight:YES radius:20];
-    
-//    _darklabel = [self makeLayer:_darklabel];
-//    _imageV = [self makeLayer:_imageV];
-    
-    _imageV.layer.masksToBounds = YES;
-    _darklabel.layer.masksToBounds = YES;
-    _redView.layer.masksToBounds = YES;
-    
+ 
 }
 
 
