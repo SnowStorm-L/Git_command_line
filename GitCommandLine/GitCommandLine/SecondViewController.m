@@ -10,7 +10,6 @@
 
 @interface SecondViewController ()
 
-
 @end
 
 @implementation SecondViewController

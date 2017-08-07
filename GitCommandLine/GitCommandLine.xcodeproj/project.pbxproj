@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F132F5F1F32C880004A2C56 /* UITableView+ExchangeReloadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F132F5E1F32C880004A2C56 /* UITableView+ExchangeReloadData.m */; };
 		0F39977F1F2D4E4600B4A6CA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F39977E1F2D4E4600B4A6CA /* SecondViewController.m */; };
 		0FD655A01F2B9140003AFAE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6559F1F2B9140003AFAE9 /* main.m */; };
 		0FD655A31F2B9140003AFAE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD655A21F2B9140003AFAE9 /* AppDelegate.m */; };
@@ -15,12 +14,9 @@
 		0FD655A91F2B9140003AFAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD655A71F2B9140003AFAE9 /* Main.storyboard */; };
 		0FD655AB1F2B9140003AFAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD655AA1F2B9140003AFAE9 /* Assets.xcassets */; };
 		0FD655AE1F2B9140003AFAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD655AC1F2B9140003AFAE9 /* LaunchScreen.storyboard */; };
-		0FD69F591F3456D60093307E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD69F581F3456D60093307E /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F132F5D1F32C880004A2C56 /* UITableView+ExchangeReloadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ExchangeReloadData.h"; sourceTree = "<group>"; };
-		0F132F5E1F32C880004A2C56 /* UITableView+ExchangeReloadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ExchangeReloadData.m"; sourceTree = "<group>"; };
 		0F39977D1F2D4E4600B4A6CA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0F39977E1F2D4E4600B4A6CA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0FD6559B1F2B9140003AFAE9 /* GitCommandLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCommandLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,8 +29,6 @@
 		0FD655AA1F2B9140003AFAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD655AD1F2B9140003AFAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FD655AF1F2B9140003AFAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FD69F571F3456D60093307E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		0FD69F581F3456D60093307E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +67,6 @@
 				0FD655A51F2B9140003AFAE9 /* ViewController.m */,
 				0F39977D1F2D4E4600B4A6CA /* SecondViewController.h */,
 				0F39977E1F2D4E4600B4A6CA /* SecondViewController.m */,
-				0FD69F571F3456D60093307E /* Person.h */,
-				0FD69F581F3456D60093307E /* Person.m */,
-				0F132F5D1F32C880004A2C56 /* UITableView+ExchangeReloadData.h */,
-				0F132F5E1F32C880004A2C56 /* UITableView+ExchangeReloadData.m */,
 				0FD655A71F2B9140003AFAE9 /* Main.storyboard */,
 				0FD655AA1F2B9140003AFAE9 /* Assets.xcassets */,
 				0FD655AC1F2B9140003AFAE9 /* LaunchScreen.storyboard */,
@@ -167,11 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD69F591F3456D60093307E /* Person.m in Sources */,
 				0F39977F1F2D4E4600B4A6CA /* SecondViewController.m in Sources */,
 				0FD655A61F2B9140003AFAE9 /* ViewController.m in Sources */,
 				0FD655A31F2B9140003AFAE9 /* AppDelegate.m in Sources */,
-				0F132F5F1F32C880004A2C56 /* UITableView+ExchangeReloadData.m in Sources */,
 				0FD655A01F2B9140003AFAE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

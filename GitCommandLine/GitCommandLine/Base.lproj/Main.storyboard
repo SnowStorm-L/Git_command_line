@@ -10,61 +10,9 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ndL-XF-5LT">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <attributedString key="userComments">
-                                    <fragment content="1231">
-                                        <attributes>
-                                            <font key="NSFont" metaFont="smallSystem"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="DoW-3e-the"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ZxP-86-6Tv"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="ndL-XF-5LT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="CZi-Fp-h6B"/>
-                            <constraint firstItem="ndL-XF-5LT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Dfm-v9-EXd"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ndL-XF-5LT" secondAttribute="bottom" id="jDj-Bj-Buo"/>
-                            <constraint firstAttribute="trailing" secondItem="ndL-XF-5LT" secondAttribute="trailing" id="jgb-tU-d6W"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="uZH-V8-1QS">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="348-gM-hwj">
-                            <connections>
-                                <segue destination="LHO-2V-5WG" kind="show" id="ZQv-NP-Yde"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="tableV" destination="ndL-XF-5LT" id="h92-9p-SSj"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="782" y="773"/>
-        </scene>
-        <!--Second View Controller-->
         <scene sceneID="bu0-X9-kh5">
             <objects>
-                <viewController id="LHO-2V-5WG" customClass="SecondViewController" sceneMemberID="viewController">
+                <viewController id="LHO-2V-5WG" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KUl-5H-odJ"/>
                         <viewControllerLayoutGuide type="bottom" id="oCx-06-BGJ"/>
@@ -74,10 +22,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="6fV-iQ-U3J"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x4u-kN-twh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1453.5999999999999" y="772.26386806596713"/>
+            <point key="canvasLocation" x="783" y="773"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Nq-ve-noj">
@@ -90,7 +39,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="57C-Np-6cR"/>
+                        <segue destination="LHO-2V-5WG" kind="relationship" relationship="rootViewController" id="6Ho-jQ-Nbd"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="axc-KC-nKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
