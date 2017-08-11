@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CardBoxView.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CardBoxView *cardBoxView = [CardBoxView new];
+    cardBoxView.frame = (CGRect){100, 200, 100, 100};
+    cardBoxView.IDCardBoxRect = (CGRect){10, 10, 50, 50};
+    //cardBoxView.backgroundColor = [UIColor redColor];
+    
+    [self.view addSubview:cardBoxView];
+    
 }
 
 - (void)didReceiveMemoryWarning {

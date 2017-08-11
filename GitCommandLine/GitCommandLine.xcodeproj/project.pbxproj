@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F235C981F3C5011008EDD5B /* CardBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F235C971F3C5011008EDD5B /* CardBoxView.m */; };
 		0F39977F1F2D4E4600B4A6CA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F39977E1F2D4E4600B4A6CA /* SecondViewController.m */; };
 		0FD655A01F2B9140003AFAE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6559F1F2B9140003AFAE9 /* main.m */; };
 		0FD655A31F2B9140003AFAE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD655A21F2B9140003AFAE9 /* AppDelegate.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F235C961F3C5011008EDD5B /* CardBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardBoxView.h; sourceTree = "<group>"; };
+		0F235C971F3C5011008EDD5B /* CardBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardBoxView.m; sourceTree = "<group>"; };
 		0F39977D1F2D4E4600B4A6CA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0F39977E1F2D4E4600B4A6CA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0FD6559B1F2B9140003AFAE9 /* GitCommandLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCommandLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +68,8 @@
 				0FD655A21F2B9140003AFAE9 /* AppDelegate.m */,
 				0FD655A41F2B9140003AFAE9 /* ViewController.h */,
 				0FD655A51F2B9140003AFAE9 /* ViewController.m */,
+				0F235C961F3C5011008EDD5B /* CardBoxView.h */,
+				0F235C971F3C5011008EDD5B /* CardBoxView.m */,
 				0F39977D1F2D4E4600B4A6CA /* SecondViewController.h */,
 				0F39977E1F2D4E4600B4A6CA /* SecondViewController.m */,
 				0FD655A71F2B9140003AFAE9 /* Main.storyboard */,
@@ -161,6 +166,7 @@
 				0FD655A61F2B9140003AFAE9 /* ViewController.m in Sources */,
 				0FD655A31F2B9140003AFAE9 /* AppDelegate.m in Sources */,
 				0FD655A01F2B9140003AFAE9 /* main.m in Sources */,
+				0F235C981F3C5011008EDD5B /* CardBoxView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
