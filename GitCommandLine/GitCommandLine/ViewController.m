@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CardBoxView.h"
 
+
 @interface ViewController ()
 
 @end
@@ -26,7 +27,7 @@
     //cardBoxView.backgroundColor = [UIColor redColor];
     
     [self.view addSubview:cardBoxView];
-    
+        
 }
 
 - (void)didReceiveMemoryWarning {
