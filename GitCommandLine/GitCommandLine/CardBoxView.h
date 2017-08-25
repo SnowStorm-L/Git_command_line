@@ -10,9 +10,6 @@
 
 @interface CardBoxView : UIView
 
-/**
- *  身份证区域
- */
 @property (nonatomic, assign) CGRect IDCardBoxRect;
 
 @end

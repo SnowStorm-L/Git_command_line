@@ -13,15 +13,14 @@
 
 @implementation CardBoxView
 
--(instancetype)initWithFrame:(CGRect)frame{
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self setBackgroundColor:[UIColor clearColor]];
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
 
--(void)drawRect:(CGRect)rect {
+- (void)drawRect:(CGRect)rect {
     [super drawRect:rect];
     
     CGContextRef ctx = UIGraphicsGetCurrentContext();
@@ -29,7 +28,6 @@
     CGContextBeginPath(ctx);
     
     [self drawBox:self.IDCardBoxRect Context:ctx];
-    
     
 }
 
@@ -41,10 +39,11 @@
  */
 - (void)drawBox:(CGRect)box Context:(CGContextRef)ctx {
     
-    CGColorRef bgColor = CGColorCreateCopyWithAlpha([UIColor redColor].CGColor, 0.5);
+    CGColorRef bgColor = CGColorCreateCopyWithAlpha([UIColor redColor].CGColor, 1);
     CGContextSetFillColorWithColor(ctx, bgColor);
     CGContextFillRect(ctx, self.bounds);
-    CGContextAddEllipseInRect(ctx, box);
+//    CGContextAddEllipseInRect(ctx, box);
+    CGContextAddArc(ctx, CGRectGetMidX(box), CGRectGetMidY(box), box.size.width/2, 0, 2*M_PI, 0);
     CGContextClip(ctx);
     CGContextClearRect(ctx, box);
     CGColorRelease(bgColor);
