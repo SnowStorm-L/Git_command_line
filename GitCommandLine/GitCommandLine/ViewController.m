@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CardBoxView.h"
+#import "PenetrateView.h"
 
 
 @interface ViewController ()
@@ -21,11 +21,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    CardBoxView *cardBoxView = [CardBoxView new];
-    cardBoxView.frame = (CGRect){100, 200, 100, 100};
-    cardBoxView.IDCardBoxRect = (CGRect){10, 10, 50, 50};
-    
-    [self.view addSubview:cardBoxView];
+    PenetrateView *penetrateView = [PenetrateView new];
+    penetrateView.frame = (CGRect){100, 200, 100, 100};
+    penetrateView.PenetrateRect = CGRectMake(25, 25, 50, 50);
+    [self.view addSubview:penetrateView];
         
 }
 

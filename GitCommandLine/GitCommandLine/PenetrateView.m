@@ -1,17 +1,10 @@
-//
-//  CardBoxView.m
-//  customPhoto
-//
-//  Created by tangwei on 17/1/18.
-//  Copyright © 2017年 tangwei. All rights reserved.
-//
 
-#import "CardBoxView.h"
+#import "PenetrateView.h"
 
 #define UIColorFromHexTakePhoto(HexColor) [UIColor colorWithRed:((float)((HexColor & 0xFF0000) >> 16))/255.0 green:((float)((HexColor & 0xFF00) >> 8))/255.0 blue:((float)(HexColor & 0xFF))/255.0 alpha:1.0]
 #define UIColorFromRGBTakePhotoA(R,G,B,A) [UIColor colorWithRed:(R/255.0) green:(G/255.0) blue:(B/255.0) alpha:A]
 
-@implementation CardBoxView
+@implementation PenetrateView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
@@ -27,7 +20,7 @@
     
     CGContextBeginPath(ctx);
     
-    [self drawBox:self.IDCardBoxRect Context:ctx];
+    [self drawBox:self.PenetrateRect Context:ctx];
     
 }
 
