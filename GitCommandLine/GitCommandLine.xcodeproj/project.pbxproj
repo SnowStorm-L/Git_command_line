@@ -64,12 +64,12 @@
 		0FD6559D1F2B9140003AFAE9 /* GitCommandLine */ = {
 			isa = PBXGroup;
 			children = (
+				0F235C961F3C5011008EDD5B /* PenetrateView.h */,
+				0F235C971F3C5011008EDD5B /* PenetrateView.m */,
 				0FD655A11F2B9140003AFAE9 /* AppDelegate.h */,
 				0FD655A21F2B9140003AFAE9 /* AppDelegate.m */,
 				0FD655A41F2B9140003AFAE9 /* ViewController.h */,
 				0FD655A51F2B9140003AFAE9 /* ViewController.m */,
-				0F235C961F3C5011008EDD5B /* PenetrateView.h */,
-				0F235C971F3C5011008EDD5B /* PenetrateView.m */,
 				0F39977D1F2D4E4600B4A6CA /* SecondViewController.h */,
 				0F39977E1F2D4E4600B4A6CA /* SecondViewController.m */,
 				0FD655A71F2B9140003AFAE9 /* Main.storyboard */,

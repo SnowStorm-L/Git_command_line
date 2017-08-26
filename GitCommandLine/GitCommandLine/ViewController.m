@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import "PenetrateView.h"
 
-
 @interface ViewController ()
 
 @end
@@ -26,6 +25,11 @@
     penetrateView.PenetrateRect = CGRectMake(25, 25, 50, 50);
     [self.view addSubview:penetrateView];
         
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    Class pushClass = NSClassFromString(@"SecondViewController");
+    [self.navigationController pushViewController:[pushClass new] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
